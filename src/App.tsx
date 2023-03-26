@@ -13,7 +13,7 @@ function App() {
     return (
         <HashRouter>
             <Navbar />
-            
+            <div>Hello world</div>
             <Routes>
                 <Route path="/" element={<Empty />} />
                 <Route path="leadership" element={<Leadership />} />
